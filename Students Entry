@@ -1,0 +1,304 @@
+import java.util.Scanner;
+class forloop
+{
+  public static void main(String a[])
+  {
+    int b,input,fees,convence,total,totalcharge;
+	b=1;
+	String wings,houses,classes,fname,lname,address,phoneno,classno,months;
+	Scanner s = new Scanner(System.in);
+	System.out.println("School Catalogue\n\n1. School Wings (Enter only first alphabat of the Wings)\n\tA. Elementary Wing (Enter class no.)\n\tB. Higher Wing (Enter class no. in words from five - twelve)");
+	System.out.println("\n2.School Houses (Enter only first alphabat of the Houses)\n\tA. Ganga\n\tB. Kaveri\n\tC. Satluj\n\tD. Barahamputra\n\tE. Yamuna\n\tF. Narmada");
+	wings = s.next();
+	classno = s.next();
+	houses = s.next();
+	
+	System.out.println("\n\nInput no. for Students' Entry");
+	    
+		input = s.nextInt();
+	
+	if (wings.equals("EW") && classno.equals("1") && houses.equals("G"))
+	{	
+		for (b=1; b<=input; b++)
+		{
+			System.out.println("First Name :-");
+			fname = s.next();
+			System.out.println("\nLast Name :-");
+			lname = s.next();
+			System.out.println("\nClass :-");
+			classes = s.next();
+			System.out.println("\nAddress :-");
+			address = s.next();
+			System.out.println("\nPhone No :-");
+			phoneno = s.next();
+			System.out.println("\n\n\t\tClass :- First\n\n\t\tHouse :- Ganga\n\t\tDress Colour :- Green\n\t\tFirst Name :-" + fname + "\n\t\tLast Name :-" + lname + "\n\t\tClass :-" + classes + "\n\t\tAddress :-" + address + "\n\t\tPhone No :-" + phoneno);
+		    /*System.out.println("\n\t\tExpenses :- \n\n\t\tFees :- 1000\n\t\tConvence Charge :- 500\n\t\t");*/
+			/*System.out.println("Enter Fees :- ");
+			fees = s.nextInt();
+			System.out.println("Enter Convence :- ");
+			convence = s.nextInt();
+			System.out.println("Fees :- " + fees + "Convence :- " + convence);*/
+			System.out.println("\n\t\tSelect Fees Months :- 1. April\n\t\t2. May-June\n\t\t3. July-August\n\t\t4. Sep-Oct\n\t\t5. Non-Dec\n\t\t6. Jan-March");
+			months = s.next();
+			if (months.equals("1"))
+			{
+				fees = 1000;
+				convence = 500;
+				total = fees+convence;
+			    System.out.println("\n\t\tTotal Charge :- "+total);
+			}
+			else
+			if (months.equals("2"))
+			{
+				fees = 1000;
+				convence = 500;
+				total = fees+convence;
+				totalcharge = total * 2;
+			    System.out.println("\n\t\tTotal Charge :- "+totalcharge);
+			}
+			else
+			if (months.equals("3"))
+			{
+				fees = 1000;
+				convence = 500;
+				total = fees+convence;
+				totalcharge = total * 2;
+			    System.out.println("\n\t\tTotal Charge :- "+totalcharge);
+			}
+			else
+			if (months.equals("4"))
+			{
+				fees = 1000;
+				convence = 500;
+				total = fees+convence;
+				totalcharge = total * 2;
+			    System.out.println("\n\t\tTotal Charge :- "+totalcharge);
+			}
+			else
+			if (months.equals("5"))
+			{
+				fees = 1000;
+				convence = 500;
+				total = fees+convence;
+				totalcharge = total * 2;
+			    System.out.println("\n\t\tTotal Charge :- "+totalcharge);
+			}
+			else
+			
+			{
+				fees = 1000;
+				convence = 500;
+				total = fees+convence;
+				totalcharge = total * 3;
+			    System.out.println("\n\t\tTotal Charge :- "+totalcharge);
+			}
+		}
+    }
+	else
+	
+		/*b=1;*/
+		/*while (b<=input)*/
+	if (wings.equals("EW") && classno.equals("2") && houses.equals("K"))
+	{	
+        
+		while (b<=input)
+		{
+			System.out.println("First Name :-");
+			fname = s.next();
+			System.out.println("\nLast Name :-");
+			lname = s.next();
+			System.out.println("\nClass :-");
+			classes = s.next();
+			System.out.println("\nAddress :-");
+			address = s.next();
+			System.out.println("\nPhone No :-");
+			phoneno = s.next();
+			System.out.println("\n\n\t\tKaveri\n\n\t\tDress Colour :- Pink\n\t\tFirst Name :-" + fname + "\n\t\tLast Name :-" + lname + "\n\t\tClass :-" + classes + "\n\t\tAddress :-" + address + "\n\t\tPhone No :-" + phoneno);
+		    b++;
+		}
+	}	
+	
+	else
+		/*b=1;*/
+	    
+	if (wings.equals("EW") && classno.equals("3") && houses.equals("S"))
+	{
+      /*b=1;*/
+		do
+		{
+			System.out.println("First Name :-");
+			fname = s.next();
+			System.out.println("\nLast Name :-");
+			lname = s.next();
+			System.out.println("\nClass :-");
+			classes = s.next();
+			System.out.println("\nAddress :-");
+			address = s.next();
+			System.out.println("\nPhone No :-");
+			phoneno = s.next();
+			System.out.println("\n\n\t\tSatluj\n\n\t\tDress Colour :- Red\n\t\tFirst Name :-" + fname + "\n\t\tLast Name :-" + lname + "\n\t\tClass :-" + classes + "\n\t\tAddress :-" + address + "\n\t\tPhone No :-" + phoneno);
+			b++;
+		}
+		while (b<=input);
+    }
+	else
+	if (wings.equals("EW") && houses.equals("B"))
+	{	
+		for (b=1; b<=input; b++)
+		{
+			System.out.println("First Name :-");
+			fname = s.next();
+			System.out.println("\nLast Name :-");
+			lname = s.next();
+			System.out.println("\nClass :-");
+			classes = s.next();
+			System.out.println("\nAddress :-");
+			address = s.next();
+			System.out.println("\nPhone No :-");
+			phoneno = s.next();
+			System.out.println("\n\n\t\tBarahamputra\n\n\t\tDress Colour :- Yelow\n\t\tFirst Name :-" + fname + "\n\t\tLast Name :-" + lname + "\n\t\tClass :-" + classes + "\n\t\tAddress :-" + address + "\n\t\tPhone No :-" + phoneno);
+		}
+	}
+	else
+	if (wings.equals("EW") && houses.equals("Y"))
+	{	
+		for (b=1; b<=input; b++)
+		{
+			System.out.println("First Name :-");
+			fname = s.next();
+			System.out.println("\nLast Name :-");
+			lname = s.next();
+			System.out.println("\nClass :-");
+			classes = s.next();
+			System.out.println("\nAddress :-");
+			address = s.next();
+			System.out.println("\nPhone No :-");
+			phoneno = s.next();
+			System.out.println("\n\n\t\tYamuna\n\n\t\tDress Colour :- Light Blue\n\t\tFirst Name :-" + fname + "\n\t\tLast Name :-" + lname + "\n\t\tClass :-" + classes + "\n\t\tAddress :-" + address + "\n\t\tPhone No :-" + phoneno);
+		}
+	}
+	else
+	if (wings.equals("EW") && houses.equals("N"))
+	{
+        for (b=1; b<=input; b++)
+		{
+			System.out.println("First Name :-");
+			fname = s.next();
+			System.out.println("\nLast Name :-");
+			lname = s.next();
+			System.out.println("\nClass :-");
+			classes = s.next();
+			System.out.println("\nAddress :-");
+			address = s.next();
+			System.out.println("\nPhone No :-");
+			phoneno = s.next();
+			System.out.println("\n\n\t\tNarmada\n\n\t\tDress Colour :- Dark Blue\n\t\tFirst Name :-" + fname + "\n\t\tLast Name :-" + lname + "\n\t\tClass :-" + classes + "\n\t\tAddress :-" + address + "\n\t\tPhone No :-" + phoneno);
+		}
+	}
+	else
+	if (wings.equals("HW") && houses.equals("G"))
+	{	
+		for (b=1; b<=input; b++)
+		{
+			System.out.println("First Name :-");
+			fname = s.next();
+			System.out.println("\nLast Name :-");
+			lname = s.next();
+			System.out.println("\nClass :-");
+			classes = s.next();
+			System.out.println("\nAddress :-");
+			address = s.next();
+			System.out.println("\nPhone No :-");
+			phoneno = s.next();
+			System.out.println("\n\n\t\tGanaga\n\n\t\tDress Colour :- Green\n\t\tFirst Name :-" + fname + "\n\t\tLast Name :-" + lname + "\n\t\tClass :-" + classes + "\n\t\tAddress :-" + address + "\n\t\tPhone No :-" + phoneno);
+		}
+	}
+	else
+	if (wings.equals("HW") && houses.equals("K"))
+	{	
+		for (b=1; b<=input; b++)
+		{
+			System.out.println("First Name :-");
+			fname = s.next();
+			System.out.println("\nLast Name :-");
+			lname = s.next();
+			System.out.println("\nClass :-");
+			classes = s.next();
+			System.out.println("\nAddress :-");
+			address = s.next();
+			System.out.println("\nPhone No :-");
+			phoneno = s.next();
+			System.out.println("\n\n\t\tKaveri\n\n\t\tDress Colour :- Pink\n\t\tFirst Name :-" + fname + "\n\t\tLast Name :-" + lname + "\n\t\tClass :-" + classes + "\n\t\tAddress :-" + address + "\n\t\tPhone No :-" + phoneno);
+		}
+	}
+	else
+	if (wings.equals("HW") && houses.equals("S"))
+	{	
+		for (b=1; b<=input; b++)
+		{
+			System.out.println("First Name :-");
+			fname = s.next();
+			System.out.println("\nLast Name :-");
+			lname = s.next();
+			System.out.println("\nClass :-");
+			classes = s.next();
+			System.out.println("\nAddress :-");
+			address = s.next();
+			System.out.println("\nPhone No :-");
+			phoneno = s.next();
+			System.out.println("\n\n\t\tSatluj\n\n\t\tDress Colour :- Red\n\t\tFirst Name :-" + fname + "\n\t\tLast Name :-" + lname + "\n\t\tClass :-" + classes + "\n\t\tAddress :-" + address + "\n\t\tPhone No :-" + phoneno);
+		}
+	}
+	else
+	if (wings.equals("HW") && houses.equals("B"))
+	{	
+		for (b=1; b<=input; b++)
+		{
+			System.out.println("First Name :-");
+			fname = s.next();
+			System.out.println("\nLast Name :-");
+			lname = s.next();
+			System.out.println("\nClass :-");
+			classes = s.next();
+			System.out.println("\nAddress :-");
+			address = s.next();
+			System.out.println("\nPhone No :-");
+			phoneno = s.next();
+			System.out.println("\n\n\t\tBarahamputra\n\n\t\tDress Colour :- Yelow\n\t\tFirst Name :-" + fname + "\n\t\tLast Name :-" + lname + "\n\t\tClass :-" + classes + "\n\t\tAddress :-" + address + "\n\t\tPhone No :-" + phoneno);
+		}
+	}
+	else
+	if (wings.equals("HW") && houses.equals("Y"))
+	{	
+		for (b=1; b<=input; b++)
+		{
+			System.out.println("First Name :-");
+			fname = s.next();
+			System.out.println("\nLast Name :-");
+			lname = s.next();
+			System.out.println("\nClass :-");
+			classes = s.next();
+			System.out.println("\nAddress :-");
+			address = s.next();
+			System.out.println("\nPhone No :-");
+			phoneno = s.next();
+			System.out.println("\n\n\t\tYamuna\n\n\t\tDress Colour :- Light Blue\n\t\tFirst Name :-" + fname + "\n\t\tLast Name :-" + lname + "\n\t\tClass :-" + classes + "\n\t\tAddress :-" + address + "\n\t\tPhone No :-" + phoneno);
+		}
+	}
+	else
+		for (b=1; b<=input; b++)
+		{
+			System.out.println("First Name :-");
+			fname = s.next();
+			System.out.println("\nLast Name :-");
+			lname = s.next();
+			System.out.println("\nClass :-");
+			classes = s.next();
+			System.out.println("\nAddress :-");
+			address = s.next();
+			System.out.println("\nPhone No :-");
+			phoneno = s.next();
+			System.out.println("\n\n\t\tNarmada\n\n\t\tDress Colour :- Dark Blue\n\t\tFirst Name :-" + fname + "\n\t\tLast Name :-" + lname + "\n\t\tClass :-" + classes + "\n\t\tAddress :-" + address + "\n\t\tPhone No :-" + phoneno);
+		}
+  }
+}
